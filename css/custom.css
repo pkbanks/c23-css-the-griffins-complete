@@ -1,0 +1,75 @@
+/* css/custom.css */
+
+body {
+  /* border: 3px solid blue; */
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 20px;
+  padding: 0 10px;
+  width: 90%;
+  box-sizing: border-box;
+  font-size: 0;
+  position: absolute;
+  top: 250px;
+  z-index: -1;
+}
+
+ul:after {
+  /*  clearfix hack */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+span {
+    font-style: italic;
+}
+
+
+li {
+  font-size: 30px;
+  display: block;
+  border-right: none;
+  text-align: center
+}
+
+header {
+  position: fixed;
+  background-color: #b4d9f7;
+
+  border: solid;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+
+  height: 150px;
+
+}
+
+
+.card {
+  border: 1px solid black;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  float: left;
+  height: 400px;
+}
+
+.card:last-child {
+  margin-bottom: 0px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+
+
+/* li:nth-last-child(2) {
+  background-color: green;
+  color: #FFF;
+} */
